@@ -38,30 +38,70 @@ body {
     color:seashell;
 }
 .h2{
-  font-size: 34px;
+  font-size: 40px;
   font-family:Helvetica;
     color:seashell;
 }
 .h3{
-  font-size: 28px;
+  font-size: 30px;
   font-family:Helvetica;
 
     color:seashell;
 }
 .h4{
-  font-size: 24px;
+  font-size: 22px;
   font-family:Helvetica;
 
     color:seashell;
 }
 .h5{
-  font-size: 20px;
+  font-size: 18px;
   font-family:Helvetica;
 
     color:seashell;
 }
 .p{
-  font-size: 22px;
+  font-size: 20px;
   font-family:Helvetica;
     color:seashell;
+}
+@media screen and (min-width:800px)and (max-width:1199px){
+  .h1{
+    font-size: calc(22*0.8125px);
+  }
+  .h2{
+    font-size: calc(40*0.8125px);
+  }
+  .h3{
+    font-size: calc(30*0.8125px);
+  }
+  .h4{
+    font-size: calc(22*0.8125px);
+  }
+  .h5{
+    font-size: calc(18*0.8125px);
+  }
+  .p{
+    font-size: calc(20*0.8125px);
+  }
+}
+@media (max-width: 799px) {
+    .h1{
+      font-size: calc(22*0.625px);
+    }
+    .h2{
+      font-size: calc(40*0.625px);
+    }
+    .h3{
+      font-size: calc(30*0.625px);
+    }
+    .h4{
+      font-size: calc(22*0.625px);
+    }
+    .h5{
+      font-size: calc(18*0.625px);
+    }
+    .p{
+      font-size: calc(20*0.625px);
+    }
 }

@@ -12,9 +12,41 @@
 }
 .box{
     width:1200px;
+    height:150px;
+    line-height: 0;
     display:flex;
     flex-direction: column;
     align-items: center;
+    align-self:center;
     position:absolute;
     background-color:black;
+    background:flex;
+}
+@media screen and (min-width:800px)and (max-width:1199px){
+    .container{
+        width:95%;
+        height:auto;
+    }
+    .background{
+        width:95%;
+        height:auto;
+    }
+    .box{
+        width:96%;
+        height:auto;
+    }
+}
+@media (max-width: 799px) {
+    .container{
+        width:90%;
+        height:auto;
+    }
+    .background{
+        width:90%;
+        height:auto;
+    }
+    .box{
+        width:90%;
+        height:auto;
+    }
 }

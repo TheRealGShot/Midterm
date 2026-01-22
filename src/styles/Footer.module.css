@@ -6,5 +6,15 @@
   font-family:Helvetica;
 
     color:seashell;
-    margin-right:1050px;
+    margin-right:74%;
+}
+@media screen and (min-width:800px)and (max-width:1199px){
+  .copy{
+     font-size: calc(20*0.7425px);
+  }
+}
+@media (max-width: 799px) {
+  .copy{
+     font-size: calc(20*0.625px);
+  }
 }

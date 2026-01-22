@@ -19,3 +19,21 @@
     height:200px;
     width:300px;
 }
+@media screen and (min-width:800px)and (max-width:1199px){
+    .container{
+        width:800px;
+    }
+    .img{
+        height:230px;
+        width:350px;
+    }
+}
+@media (max-width: 799px) {
+    .container{
+        width:649px;
+    }
+    .img{
+        height:230px;
+        width:350px;
+    }
+}

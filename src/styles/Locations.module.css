@@ -26,10 +26,49 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    line-height: 30px;
 }
 .title{
     position:absolute;
     margin-bottom:415px;
-    font-size:32px;
+    font-size:40px;
     color:seashell;
+}
+@media screen and (min-width:800px)and (max-width:1199px){
+    .container{
+        width:95%;
+        height:auto;
+    }
+    .locationImg{
+        width:95%;
+        height:auto;
+    }
+    .box{
+        width:95%;
+        height:auto;
+        gap:15px;
+    }
+    .title{
+        font-size: calc(40*0.8125px);
+        margin-bottom:415px;
+    }
+}
+@media (max-width: 799px) {
+    .container{
+        width:90%;
+        height:auto;
+    }
+    .locationImg{
+        width:90%;
+        height:auto;
+    }
+    .box{
+        width:90%;
+        height:auto;
+        gap:5px;
+    }
+    .title{
+        font-size: calc(40*0.625px);
+        margin-bottom:45%;
+    }
 }
