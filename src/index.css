@@ -105,3 +105,63 @@ body {
       font-size: calc(20*0.625px);
     }
 }
+@media (max-width: 425px) {
+  .h1{
+    font-size: calc(22*0.50px);
+  }
+  .h2{
+    font-size: calc(40*0.50px);
+  }
+  .h3{
+    font-size: calc(30*0.50px);
+  }
+  .h4{
+    font-size: calc(22*0.50px);
+  }
+  .h5{
+    font-size: calc(18*0.50px);
+  }
+  .p{
+    font-size: calc(20*0.50px);
+  }
+}
+@media (max-width: 375px) {
+  .h1{
+    font-size: calc(22*0.50px);
+  }
+  .h2{
+    font-size: calc(40*0.375px);
+  }
+  .h3{
+    font-size: calc(30*0.375px);
+  }
+  .h4{
+    font-size: calc(22*0.375px);
+  }
+  .h5{
+    font-size: calc(18*0.375px);
+  }
+  .p{
+    font-size: calc(20*0.375px);
+  }
+}
+@media (max-width: 320px) {
+  .h1{
+    font-size: calc(22*0.50px);
+  }
+  .h2{
+    font-size: calc(40*0.3px);
+  }
+  .h3{
+    font-size: calc(30*0.3px);
+  }
+  .h4{
+    font-size: calc(22*0.3px);
+  }
+  .h5{
+    font-size: calc(18*0.3px);
+  }
+  .p{
+    font-size: calc(20*0.3px);
+  }
+}

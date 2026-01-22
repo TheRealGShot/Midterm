@@ -30,10 +30,15 @@
 }
 @media (max-width: 799px) {
     .container{
-        width:649px;
+        width:800px;
     }
     .img{
         height:230px;
         width:350px;
+    }
+}
+@media (min-width: 100px) and (max-width: 425px) {
+    .container{
+        width:100%;
     }
 }

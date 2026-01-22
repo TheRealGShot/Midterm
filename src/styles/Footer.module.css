@@ -18,3 +18,18 @@
      font-size: calc(20*0.625px);
   }
 }
+@media (max-width: 425px) {
+  .copy{
+    font-size: calc(20*0.50px);
+ }
+}
+@media (max-width: 375px) {
+  .copy{
+    font-size: calc(20*0.375px);
+ }
+}
+@media (max-width: 320px) {
+  .copy{
+    font-size: calc(20*0.3px);
+ }
+}

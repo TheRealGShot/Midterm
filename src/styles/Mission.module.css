@@ -46,7 +46,58 @@
         height:auto;
     }
     .box{
-        width:90%;
+        width:91%;
         height:auto;
+    }
+}
+@media (max-width: 425px) {
+    .container{
+        width:85%;
+        height:auto;
+    }
+    .background{
+        width:85%;
+        height:auto;
+    }
+    .box{
+        width:100%;
+        height:auto;
+    }
+    .box h4{
+        font-size:7px;
+    }
+}
+@media (max-width: 375px) {
+    .container{
+        width:85%;
+        height:auto;
+    }
+    .background{
+        width:85%;
+        height:auto;
+    }
+    .box{
+        width:100%;
+        height:auto;
+    }
+    .box h4{
+        font-size:6px;
+    }
+}
+@media (max-width: 320px) {
+    .container{
+        width:85%;
+        height:auto;
+    }
+    .background{
+        width:85%;
+        height:auto;
+    }
+    .box{
+        width:100%;
+        height:auto;
+    }
+    .box h4{
+        font-size:5px;
     }
 }
