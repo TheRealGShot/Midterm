@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width:calc(100vw - 20px);
+    height:69px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*background-color: #ffd000;*/
+    border-bottom: 1px solid seashell;
+}
+.navLinks{
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+    list-style-type: none;
+    text-decoration: underline;
+}
+.logo{
+    height:50px;
+}
