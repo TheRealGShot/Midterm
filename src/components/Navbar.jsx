@@ -9,7 +9,7 @@ function Navbar(){
                 <ul className={styles.navLinks}>
                     <li><Link to="/" className="h1">Mission</Link></li>
                     <li><Link to="/totm" className="h1">Featured Tea</Link></li>
-                    <li><Link to="/locations" className="h1">Featured Tea</Link></li>
+                    <li><Link to="/locations" className="h1">Locations</Link></li>
                 </ul>
             </nav>
         </>
